@@ -4,7 +4,7 @@ import Footer from "../Component/Footer";
 
 const MainRouter = () => {
     return (
-        <div>
+        <div className="mx-16">
             <Navbar />
             <Outlet></Outlet>    
             <Footer></Footer>       
